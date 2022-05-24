@@ -15,7 +15,7 @@ It will be automatically pre-process and load your DICOM dataset. </br>
 
 
 
-## Your dataset
+## Dataset tree
 
 Your dataset must be prepared with this tree.
 
@@ -47,6 +47,5 @@ directory/
     ...
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 
