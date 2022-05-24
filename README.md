@@ -6,15 +6,6 @@ It will be automatically pre-process and load your DICOM dataset. </br>
 
 
 
-## Description
-
-* dataset.py - Official dataset code from stylegan3
-* dcm_dataset.py - Revised image folder dataset to load DICOM images
-* transform.py - Torchvision-based 16-bit transform functions 
-* utils.py - Pre-processing tools 
-
-
-
 ## Dataset tree
 
 Your dataset must be prepared with this tree.
@@ -46,6 +37,17 @@ directory/
     /00000000005.dcm
     ...
 ```
+
+
+
+
+## Description
+
+* dataset.py - Official dataset code from stylegan3
+* dcm_dataset.py - Revised image folder dataset to load DICOM images
+* transform.py - Torchvision-based 16-bit transform functions 
+* utils.py - Pre-processing tools 
+
 
 
 
