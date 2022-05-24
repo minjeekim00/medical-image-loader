@@ -1,6 +1,6 @@
 # Medical Image Loader
 
-This repository was implemented to load DICOM images for [stylegan3](https://github.com/NVlabs/stylegan3) training.
+This repository was implemented to load DICOM images for [stylegan3](https://github.com/NVlabs/stylegan3) training. </br>
 There is no need to prepare datasets using [dataset_tool.py](https://github.com/NVlabs/stylegan3/blob/main/dataset_tool.py).
 It will be automatically pre-process and load your DICOM dataset.
 
