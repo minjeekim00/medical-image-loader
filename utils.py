@@ -99,6 +99,7 @@ def sitk_image_to_array(img_meta):
     return sitk.GetArrayFromImage(img_meta)
 
 def percentile(img, p=(0, 99), o_range=[0, 255]):
+    ##TODO: dtype
     dtype = img.dtype
     min = np.percentile(img, p[0])
     max = np.percentile(img, p[1])
