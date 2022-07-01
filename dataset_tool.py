@@ -21,7 +21,7 @@ def create_labels(dir: str, ext='.dcm'):
     classes = [d for d in os.listdir(dir) if os.path.isdir(os.path.join(dir, d))]
     classes_to_idx = {cls: idx for idx, cls in enumerate(classes)}
 
-    files = glob(os.path.join(dir, f'**/*{ext}'), recursive=True)
+    files = glob(os.path.join(dir, f'/**/*{ext}'), recursive=True)
     assert len(files) > 0, print(f"There is no file with a {ext} extension")
 
     labels = []
